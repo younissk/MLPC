@@ -1,0 +1,37 @@
+# Ignore audio files and audio features
+audio/
+audio_features/
+
+annotations_text_embeddings.npz
+metadata_keywords_embeddings.npz
+metadata_title_embeddings.npz
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.o
+*.so
+*.out
+*.class
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.old
